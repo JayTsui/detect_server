@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `face_identity_info`(
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `block` VARCHAR(320) NOT NULL DEFAULT '',
+    `identity` VARCHAR(32) NOT NULL DEFAULT '',
+    `image` VARCHAR(64) NOT NULL DEFAULT '',
+    `facepp_mark` VARCHAR(1024) NOT NULL DEFAULT '',
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

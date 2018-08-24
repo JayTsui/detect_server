@@ -1,0 +1,9 @@
+{
+    "face_detect_data": {
+        "host"      : "xxx",
+        "user"      : "dev",
+        "pswd"      : "xxx",
+        "dbname"    : "face_detect_data",
+        "port"      : 3306
+    }
+}
